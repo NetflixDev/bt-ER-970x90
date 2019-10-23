@@ -1,0 +1,10 @@
+node_modules
+2-debug
+
+log.txt
+.DS_Store
+*.pyc
+
+# BSA Misc Files
+src/.gitignore
+dist/.gitignore

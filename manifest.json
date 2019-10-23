@@ -1,0 +1,62 @@
+{
+  "container": {
+    "lockup": {
+      "state": "required",
+      "toolTip": "Lock-up options determine where the Netflix Logo, CTA, and Tune-in appear."
+    },
+    "animation": {
+      "state": "required",
+      "toolTip": "Animation options determine how the ad resolves to endframe."
+    }
+  },
+  "assets": {
+    "MAIN_IMAGE": {
+      "input": {
+        "state": "required",
+        "toolTip": "Background image: <ul><li>Match dimensions of the Container</li> <li>Do <b>not</b> include brand elements (Title, Logo, CTA, Tune-In)</li></ul>"
+      }
+    },
+    "TITLE_IMAGE": {
+      "input": {
+        "state": "required",
+        "toolTip": "Title Treatment image:<ul><li>Match dimensions of the Container</li><li>Use a transparent PNG</li></ul>"
+      }
+    },
+    "CTA": {
+      "input": {
+        "state": "required",
+        "pattern": ".*",
+        "toolTip": "Call-to-action text."
+      }
+    },
+    "HEADLINE": {
+      "input": {
+        "state": "optional",
+        "pattern": ".*",
+        "toolTip": "Headline text."
+      }
+    },
+    "TOGGLE_SUPERCUT": {
+      "input": {
+        "state": "optional",
+        "toolTip": "Enabling Supercut will play FPO video until a Monet Video Asset has been added to the Treatment."
+      }
+    },
+    "SUPERCUT_VIDEO": {
+      "input": {
+        "state": "optional",
+        "toolTip": "Temporary supercut URL. Actual supercut will be uploaded in setting up treatment in Monet. Please upload only .mp4 videos under 1 MB."
+      }
+    },
+    "EXIT_URL": {
+      "input": {
+        "state": "disabled"
+      }
+    },
+    "RATINGS": {
+      "input": {
+        "state": "disabled"
+      }
+    }
+  }
+}
